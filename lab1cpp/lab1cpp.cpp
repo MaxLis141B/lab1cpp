@@ -45,7 +45,6 @@ int main() {
         C[i] = pow(2, i) * A[i];
     }
 
-    PrintVector(A, L"Введений масив A");
     PrintVector(C, L"Результат (масив C)");
 
     wcout << endl << L"ЗАВДАННЯ 2" << endl;
@@ -78,7 +77,6 @@ int main() {
         }
     }
 
-    PrintVector(B, L"Введений масив B");
 
     if (!found)
     {
@@ -108,7 +106,6 @@ int main() {
     InputVector(A1, L"Введіть елементи масиву A: ");
 
     sort(A1.begin(), A1.end());
-    PrintVector(A1, L"Відсортований масив A");
 
     float sum = 0, mult = 1;
     bool newnum = true;
